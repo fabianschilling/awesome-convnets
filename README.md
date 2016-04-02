@@ -97,6 +97,10 @@ Introduces a novel visualization technique for convolutional filters using a met
 
 Introduces *adam* and *adamax*, improved versions of the adadelta adaptive optimization technique.
 
+##### [Going Deeper with Convolutions](http://arxiv.org/pdf/1409.4842v1.pdf) (Szegedy et al 2014)
+
+Describes the *inception* architecture (*GoogLeNet*) that reduces the amount of learable parameters significantly while improving accuracy.
+
 ## Batch Normalization
 
 ##### [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/pdf/1502.03167v3.pdf) (Ioffe et al 2015)
@@ -107,4 +111,10 @@ Introduces *batch normalization*, a method to accelerate deep network training b
 * *Regularizes* the model by stabilizing the parameter growth
 * Reduce the need for dropout, weight regularization, and local response normalization
 
+##### [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf) (He et al 2015)
 
+Introduces a novel *parametric rectifier* (*PReLU*) and a weight initialization scheme tailored to rectified activations (*He initialization*).
+
+##### [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385v1.pdf) (He et al 2015)
+
+Describes a network architecture with *residual connections* (*ResNet*) that enable deeper architectures and are easier to optimize.
