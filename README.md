@@ -8,10 +8,6 @@ A list of papers I used for my thesis about convolutional neural networks with a
 
 Invention of the *backpropagation* algorithm.
 
-##### [Backpropagation Applied to Handwritten Zip Code Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf) (LeCun et al 1989)
-
-Backpropagation applied to character recognition with *weight sharing*.
-
 ##### [Handwritten Digit Recognition with a Backpropagation Network](http://yann.lecun.com/exdb/publis/pdf/lecun-90c.pdf) (LeCun et al 1990)
 
 First paper on *convolutional neural networks* trained with backpropagation.
