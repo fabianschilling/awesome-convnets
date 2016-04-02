@@ -60,11 +60,27 @@ Practical recommendations for setting hyperparameters such as the learning rate,
 
 ##### [ImageNet Classification with Deep Convolutional Neural Networks](http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf) (Krizhevsky et al 2012)
 
-Breakthrough paper that popularized convolutional neural networks and made the following contributions.
+Breakthrough paper that popularized convolutional neural networks (namely *AlexNet*) and made the following contributions.
 
-* *Local Response Normalization*
+* The use of *Local Response Normalization*
 * Extensive use of regularizers such as *data augmentation* and *dropout*
 
 ##### [Improving Neural Networks by Preventing Co-adaptation of Feature Detectors](http://arxiv.org/pdf/1207.0580.pdf) (Hinton et al 2012)
 
 Paper decribing the dropout regularization technique in detail.
+
+##### [Adadelta: An Adaptive Learning Rate Method](http://arxiv.org/pdf/1212.5701v1.pdf) (Zeiler et al 2012)
+
+Introduces *Adadelta*, an improved version of the Adagrad adaptive optimization technique.
+
+##### [Maxout Networks](http://jmlr.org/proceedings/papers/v28/goodfellow13.pdf) (Goodfellow et al 2013)
+
+Introduces the *maxout neuron*, a companion to dropout, that is able to approximate activation functions such as ReLU and the absolute value.
+
+##### [Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks](http://arxiv.org/pdf/1312.6120v3.pdf) (Saxe et al 2013)
+
+Theoretical analysis of the dynamics in deep neural networks.
+
+##### [On the Inportance of Initialization and Momentum in Deep Learning](http://www.cs.utoronto.ca/~ilya/pubs/2013/1051_2.pdf) (Sutskever et al 2013)
+
+Shows why careful weight initialization and (Nesterov) momentum accelerated SGD are cruciual for training deep neural networks.
