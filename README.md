@@ -1,4 +1,4 @@
-# Awesome Convolutional Neural Networks
+# Convolutional Neural Networks Reading List
 
 A list of papers I used for my thesis about convolutional neural networks with a focus on batch normalization. The papers are mostly ordered chronologically in terms of their publication date. I divided the the papers in sections [Early word](#early-word), [Pre-AlexNet](#pre-alexnet), [Post-AlexNet](#post-alexnet), and [Batch Normalization](#batch-normalization).
 
