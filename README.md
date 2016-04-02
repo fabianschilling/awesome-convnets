@@ -50,7 +50,7 @@ Shows the advantages of rectified activation functions (*ReLU*) for convergence 
 
 ##### [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) (Duchi et al 2011)
 
-Introduces *Adagrad*, an adaptive optimization technique.
+Introduces *adagrad*, an adaptive optimization technique.
 
 ##### [Practical Recommendations for Gradient-based Training of Deep Architectures](http://arxiv.org/pdf/1206.5533v2.pdf) (Bengio et al 2012)
 
@@ -62,16 +62,16 @@ Practical recommendations for setting hyperparameters such as the learning rate,
 
 Breakthrough paper that popularized convolutional neural networks (namely *AlexNet*) and made the following contributions.
 
-* The use of *Local Response Normalization*
+* The use of *local response normalization*
 * Extensive use of regularizers such as *data augmentation* and *dropout*
 
 ##### [Improving Neural Networks by Preventing Co-adaptation of Feature Detectors](http://arxiv.org/pdf/1207.0580.pdf) (Hinton et al 2012)
 
-Paper decribing the dropout regularization technique in detail.
+Describes dropout in detail.
 
 ##### [Adadelta: An Adaptive Learning Rate Method](http://arxiv.org/pdf/1212.5701v1.pdf) (Zeiler et al 2012)
 
-Introduces *Adadelta*, an improved version of the Adagrad adaptive optimization technique.
+Introduces *adadelta*, an improved version of the adagrad adaptive optimization technique.
 
 ##### [Maxout Networks](http://jmlr.org/proceedings/papers/v28/goodfellow13.pdf) (Goodfellow et al 2013)
 
@@ -85,8 +85,26 @@ Theoretical analysis of the dynamics in deep neural networks.
 
 Shows why careful weight initialization and (Nesterov) momentum accelerated SGD are cruciual for training deep neural networks.
 
+##### [Regularization of Neural Networks Using DropConnect](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2013_wan13.pdf) (Wan et al 2013)
+
+Introduces *dropconnect*, a generalization of dropout that drops random weights instead of entire neurons.
+
+##### [Visualizing and Understanding Convolution Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) (Zeiler et al 2013)
+
+Introduces a novel visualization technique for convolutional filters using a method called *deconvolution* that maps layer activations back to the input pixel space.
+
+##### [Adam: A Method for Stochastic Optimization](http://arxiv.org/pdf/1412.6980v8.pdf) (Kingma et al 2014)
+
+Introduces *adam* and *adamax*, improved versions of the adadelta adaptive optimization technique.
+
 ## Batch Normalization
 
 ##### [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/pdf/1502.03167v3.pdf) (Ioffe et al 2015)
 
-Introduces *batch normalization*.
+Introduces *batch normalization*, a method to accelerate deep network training by reducing the internal covariate shift. The authors claim batch normalization has the following properties.
+
+* Enables *higher learning rates* and *faster learning rate decay* without the risk of divergence
+* *Regularizes* the model by stabilizing the parameter growth
+* Reduce the need for dropout, weight regularization, and local response normalization
+
+
