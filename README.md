@@ -1,6 +1,6 @@
 # Awesome Convolutional Neural Networks
 
-A list of papers I used for my thesis about convolutional neural networks with a focus on batch normalization.
+A list of papers I used for my thesis about convolutional neural networks with a focus on batch normalization. The papers are mostly ordered chronologically in terms of their publication date. I divided the the papers in sections [Early word](#early-word), [Pre-AlexNet](#pre-alexnet), [Post-AlexNet](#post-alexnet), and [Batch Normalization](#batch-normalization).
 
 ## Early work
 
@@ -84,3 +84,9 @@ Theoretical analysis of the dynamics in deep neural networks.
 ##### [On the Inportance of Initialization and Momentum in Deep Learning](http://www.cs.utoronto.ca/~ilya/pubs/2013/1051_2.pdf) (Sutskever et al 2013)
 
 Shows why careful weight initialization and (Nesterov) momentum accelerated SGD are cruciual for training deep neural networks.
+
+## Batch Normalization
+
+##### [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/pdf/1502.03167v3.pdf) (Ioffe et al 2015)
+
+Introduces *batch normalization*.
