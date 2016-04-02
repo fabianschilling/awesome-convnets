@@ -101,6 +101,10 @@ Introduces *adam* and *adamax*, improved versions of the adadelta adaptive optim
 
 Describes the *inception* architecture (*GoogLeNet*) that reduces the amount of learable parameters significantly while improving accuracy.
 
+##### [Very Deep Convolutional Networks for Large-scale Image Recognition](http://arxiv.org/pdf/1409.1556v6.pdf) (Simonyan et al 2014)
+
+Motivates the use of architectures with smaller convolutional filters such as `1 x 1` and `3 x 3` (*VGGNet*).
+
 ## Batch Normalization
 
 ##### [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/pdf/1502.03167v3.pdf) (Ioffe et al 2015)
