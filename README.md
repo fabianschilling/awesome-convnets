@@ -75,7 +75,7 @@ Introduces the *maxout neuron*, a companion to dropout, that is able to approxim
 
 ##### [Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks](http://arxiv.org/pdf/1312.6120v3.pdf) (Saxe et al 2013)
 
-Theoretical analysis of the dynamics in deep neural networks.
+Theoretical analysis of the dynamics in deep neural networks and proposal of the *orthogonal initialization* scheme.
 
 ##### [On the Inportance of Initialization and Momentum in Deep Learning](http://www.cs.utoronto.ca/~ilya/pubs/2013/1051_2.pdf) (Sutskever et al 2013)
 
