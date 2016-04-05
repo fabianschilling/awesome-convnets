@@ -101,6 +101,13 @@ Describes the *inception* architecture (*GoogLeNet*) that reduces the amount of 
 
 Motivates the use of architectures with smaller convolutional filters such as `1 x 1` and `3 x 3` (*VGGNet*).
 
+##### [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf) (He et al 2015)
+
+Introduces a novel *parametric rectifier* (*PReLU*) and a weight initialization scheme tailored to rectified activations (*Kaiming initialization*).
+
+##### [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385v1.pdf) (He et al 2015)
+
+Describes a network architecture with *residual connections* (*ResNet*) that enable deeper architectures and are easier to optimize.
 ## Batch Normalization
 
 ##### [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/pdf/1502.03167v3.pdf) (Ioffe et al 2015)
@@ -111,10 +118,3 @@ Introduces *batch normalization*, a method to accelerate deep network training b
 * *Regularizes* the model by stabilizing the parameter growth
 * Reduce the need for dropout, weight regularization, and local response normalization
 
-##### [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf) (He et al 2015)
-
-Introduces a novel *parametric rectifier* (*PReLU*) and a weight initialization scheme tailored to rectified activations (*He initialization*).
-
-##### [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385v1.pdf) (He et al 2015)
-
-Describes a network architecture with *residual connections* (*ResNet*) that enable deeper architectures and are easier to optimize.
